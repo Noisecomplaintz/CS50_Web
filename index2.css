@@ -1,0 +1,27 @@
+html, body, form {
+    height: 100%
+}
+
+form {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+
+#text {
+    width: 30%;
+    height: 5%;
+    position: absolute;
+    border-radius: 25px;
+}
+
+#searchbutton {
+    height: 5%;
+    position: relative;
+    top: 6%;
+}
