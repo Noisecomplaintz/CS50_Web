@@ -18,19 +18,16 @@ form {
     height: 5%;
     position: absolute;
     border-radius: 25px;
+    margin: 20%;
 }
 
 #searchbutton {
     height: 5%;
     position: relative;
     top: 6%;
+    margin: 0.4%; 
 }
 
-#feelinglucky {
-    height: 5%;
-    position: relative;
-    top: 6%;
-}
 
 #links {
     position: relative;
