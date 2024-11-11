@@ -8,37 +8,37 @@
 #first {
     position: absolute;
     top: 20%;
-    left: 20%;
-    height: 2%;
+    left: 5%;
+    height: 40%;
 }
 
 
 #second {
     position: absolute;
     top: 24%;
-    left: 20%;
-    height: 2%;
+    left: 5%;
+    height: 40%;
 }
 
 #third {
     position: absolute;
     top: 28%;
-    left: 20%;
-    height: 2%;
+    left: 5%;
+    height: 40%;
 }
 
 
 #fourth {
     position: absolute;
     top: 32%;
-    left: 20%;
-    height: 2%;
+    left: 5%;
+    height: 40%;
 }
 
 #submit {
     position: absolute;
     top: 36%;
-    left: 20%;
+    left: 26%;
     
 }
 

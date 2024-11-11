@@ -3,23 +3,56 @@
     <head>
         <title>Advanced Search</title>
         <link rel="stylesheet" href="advancedsearch2.css">
+        <style>
+            label {
+                display: inline-block;
+                text-align: right;
+                width: 400px;
+            }
+
+            #links {
+                text-align: right;
+                margin-right: 2em;
+                margin-top: 2em;
+            }
+
+            .advanced_search_text {
+                margin-left: 1em;
+            }
+
+            #submit {
+                margin-left: 1em;
+            }
+
+        </style>
     </head>
     <body>
+        <div id="links">
+            <p><a href="https://google.com/search">Google Search</a></p>
+            </div>
         <form action="https://www.google.com/advanced_search">
+            <div id="first">
             <label for="first">Find pages with all these words:</label>
-            <input id="first" class="advanced_search_text" type="text" name="as_q">
-            
+            <input class="advanced_search_text" type="text" name="as_q"> 
+            </div>
+
+            <div id="second">
             <label for="second">Find pages with this exact word or phrase:</label>
-            <input id="second" class="advanced_search_text" type="text" name="as_epq">
-            
+            <input class="advanced_search_text" type="text" name="as_epq">
+            </div>
 
-            <input id="third" class="advanced_search_text" type="text" name="as_oq">
-            
+            <div id="third">
+            <label for="first">Find pages with all these words:</label>
+            <input class="advanced_search_text" type="text" name="as_oq"> 
+            </div>
 
-            <input id="fourth" class="advanced_search_text" type="text" name="as_eq">
-            
+            <div id="fourth">
+            <label for="second">Find pages with this exact word or phrase:</label>
+            <input class="advanced_search_text" type="text" name="as_epq">
+            </div>
+    
 
             <input id="submit" type="submit" value="Google Search">
         </form>
     </body>
-</html>
+    </html>
